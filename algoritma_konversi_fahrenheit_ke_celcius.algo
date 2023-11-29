@@ -1,0 +1,9 @@
+Algoritma KONVERSI SUHU FAHRENHEIT  KE CELCIUS;
+kamus
+fahrenheit  : integer;
+celcius : integer;
+Deskripsi;
+write('Masukan suhuh (F):');
+read(nomor_hari);
+celcius <- (fahrenheit  - 32) * 5/9;
+write(fahrenheit , "F = ",celcius, " C");
