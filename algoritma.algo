@@ -1,0 +1,32 @@
+Algoritma NAMA_HARI;
+
+kamus
+
+nomor_hari : integer;
+
+Deskripsi;
+write('Masukan hari dalam bentuk Angka 1 - 7: ');
+read(nomor_hari);
+
+depend on(nomor_hari){
+
+	nomor_hari = 1 : write("Senin");
+
+	nomor_hari = 2 : write("Selasa");
+
+	nomor_hari = 3 : write("Rabu");
+
+	nomor_hari = 4 : write("Kamis");
+
+	nomor_hari = 5 : write("Jum'At");
+
+	nomor_hari = 6 : write("Sabtu");
+
+	nomor_hari = 7 : write("Minggu");
+
+otherwise :
+
+	write('Bukan Hari Yang Benar');
+
+}
+

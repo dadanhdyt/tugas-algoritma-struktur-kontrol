@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int angka;
-	cout << "Masukan hari dalam bentuk angka 1 - 7: ";
-	cin >> angka;
+	int nomor_hari;
+	cout << "Masukan hari dalam bentuk Angka 1 - 7: ";
+	cin >> nomor_hari;
 	
-	switch(angka){
+	switch(nomor_hari){
 		case 1 :
 			cout << "SENIN";
 			break;
