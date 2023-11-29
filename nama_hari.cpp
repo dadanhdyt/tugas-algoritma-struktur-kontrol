@@ -2,7 +2,6 @@
 using namespace std;
 int main(){
 	int angka;
-	utama:
 	cout << "Masukan hari dalam bentuk angka 1 - 7: ";
 	cin >> angka;
 	
@@ -29,7 +28,7 @@ int main(){
 									cout << "MINGGU";
 									break;
 									default:
-										goto utama;
+										cout << "Bukan Hari Yang Benar";
 			
 				}
 				}
